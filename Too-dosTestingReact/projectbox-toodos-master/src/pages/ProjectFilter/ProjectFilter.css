@@ -1,0 +1,10 @@
+.project-filter-list {
+    overflow-y: auto;
+    height: calc(100vh - 200px);
+}
+
+@media screen and (max-width: 767px) {
+    .project-filter-list {
+        height: calc(100vh - 112px);
+    }
+}

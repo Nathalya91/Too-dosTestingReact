@@ -1,0 +1,13 @@
+#sbx-drawer{
+    text-align: center;
+    color: rgb(160, 155, 155);
+    white-space: normal;
+    margin-bottom: 0
+}
+
+#sbx-drawer-footer{
+    padding: 15px;
+    font-size: 8pt;
+    text-align: center;
+    color: #9c9c9c
+}

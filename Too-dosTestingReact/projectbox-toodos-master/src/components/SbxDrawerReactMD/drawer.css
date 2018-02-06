@@ -1,0 +1,40 @@
+/* inicio personalização scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    background-color: rgba(255, 0, 0, 0.61); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    background-color: rgba(241, 9, 9, 0.788);
+    border-radius: 10px;
+}
+/* fim personalização scrollbar */
+
+#sbx-drawer{
+    text-align: center;
+    color: rgb(160, 155, 155);
+    white-space: normal;
+    margin-bottom: 0
+}
+
+#sbx-drawer-footer{
+    padding: 15px;
+    font-size: 8pt;
+    text-align: center;
+    color: #9c9c9c
+}
+
+.sbx-drawer-bodylist{
+    height: calc(100vh - 178px);
+    overflow-y: auto
+}
+
+.sbx-footer{
+    position: fixed; bottom: 0; width: 100%
+}

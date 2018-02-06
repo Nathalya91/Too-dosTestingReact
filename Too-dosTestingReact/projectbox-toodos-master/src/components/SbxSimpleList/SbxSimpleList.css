@@ -1,0 +1,4 @@
+.sbx-simple-list {
+    overflow-y: auto;
+    max-height: calc(100vh - 178px);
+}

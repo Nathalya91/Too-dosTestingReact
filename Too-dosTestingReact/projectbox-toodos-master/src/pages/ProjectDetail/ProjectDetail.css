@@ -1,0 +1,10 @@
+.project-detail-list {
+    overflow-y: auto;
+    height: calc(100vh - 64px);
+}
+
+@media screen and (max-width: 767px) {
+    .project-detail-list {
+        height: calc(100vh - 112px);
+    }
+}
